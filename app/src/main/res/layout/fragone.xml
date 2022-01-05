@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ddff"
+    android:layout_height="270dp">
+<TextView
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:id="@+id/tvone"
+    android:text="@string/hello_android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+</TextView>
+    <Button
+        android:text="@string/button_one"
+        android:id="@+id/btnone"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/teal_700"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>
